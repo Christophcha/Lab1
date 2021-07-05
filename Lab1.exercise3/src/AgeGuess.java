@@ -9,10 +9,10 @@ public class AgeGuess {
 	
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Enter your name:");
+		System.out.print("Enter your name:"); //prompts the user to enter name
 		name = scan.nextLine();
 		
-		System.out.print("Enter your Age:");
+		System.out.print("Enter your Age:"); //prompts the user to enter age
 		ageGuess = scan.nextInt();
 		
 		System.out.print("Your Name is " + name);
